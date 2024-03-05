@@ -5,7 +5,6 @@ SET time_zone = "+00:00";
 
 
 
--- --------------------------------------------------------
 
 --
 -- Table structure for table `menu`
@@ -34,7 +33,6 @@ INSERT INTO `menu` (`ID`, `Product`, `Description`, `Price`) VALUES
 (9, 'Special Espresso', 'Our special recipe for the coffee you love.', 1.5),
 (10, 'Macchiato', 'Coffee and milk. Cold or hot. Classic combo', 1.5);
 
--- --------------------------------------------------------
 
 --
 -- Table structure for table `orders`
@@ -48,7 +46,6 @@ CREATE TABLE `orders` (
   `Number` varchar(15) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- --------------------------------------------------------
 
 --
 -- Table structure for table `users`
@@ -113,6 +110,3 @@ ALTER TABLE `users`
   MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
